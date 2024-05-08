@@ -18,7 +18,7 @@
 
                 <div class="col-4 mb-3">
                     <div class="card text-center">
-
+                        <br>
                         <h5 class="card-title">MOVES: </h5>
                         @foreach ($pokemon->moves as $moves)
                             <p>{{ $moves->move->name }}</p>
